@@ -49,15 +49,15 @@
 		491BA6FBF9F0F1E90B94E54507BC5133 /* Pods-FFmpeg_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFmpeg_Tests-umbrella.h"; sourceTree = "<group>"; };
 		656A8FF2ED90F1C605DBDA11276AD3D9 /* Pods-FFmpeg_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFmpeg_Tests.modulemap"; sourceTree = "<group>"; };
 		703054C9CD140F1788DFC1F20C5A4037 /* Pods-FFmpeg_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFmpeg_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		71B03DEF0EC062D5845AC84A4B4CC1BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		71B03DEF0EC062D5845AC84A4B4CC1BA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		865162278A3F88FC4D461ABEE7F6422B /* Pods-FFmpeg_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FFmpeg_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8CEF5ABEBB3DA071B79609A220EA52AC /* Pods-FFmpeg_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFmpeg_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		91658A6324B95369C634C1012D744CC7 /* FFmpeg.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FFmpeg.modulemap; sourceTree = "<group>"; };
 		93BDC93788FDE8F74F496620D9060FC1 /* Pods-FFmpeg_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFmpeg_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A1054ED632A75081291CE52530E3EFB5 /* Pods-FFmpeg_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-FFmpeg_Example"; path = Pods_FFmpeg_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A3CDC589F70AD2DA80CC4078C0AEB206 /* FFmpeg.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FFmpeg.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A3CDC589F70AD2DA80CC4078C0AEB206 /* FFmpeg.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FFmpeg.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		A74D610C219FB52F955093E932B99118 /* Pods-FFmpeg_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFmpeg_Example-Info.plist"; sourceTree = "<group>"; };
 		AC33DBE9D39EA8F1EED99BFBB30D96B8 /* Pods-FFmpeg_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FFmpeg_Example-umbrella.h"; sourceTree = "<group>"; };
 		AD03AF4C016534CB24A3E4FD5B196A75 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = FFmpeg/Classes/ReplaceMe.m; sourceTree = "<group>"; };
@@ -65,7 +65,7 @@
 		BF5FA8A86277CE8D1C69D9CF2B8DF82F /* Pods-FFmpeg_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FFmpeg_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		C64F2BFAE7948F53290EB988AF31773D /* Pods-FFmpeg_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FFmpeg_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		C66F4094DE8A2D449BE9BB0CE73C6354 /* Pods-FFmpeg_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFmpeg_Example-dummy.m"; sourceTree = "<group>"; };
-		C6FF92A4219255A4A7DD3A90DEE3E13E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		C6FF92A4219255A4A7DD3A90DEE3E13E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		D6F59A57E188D4059D075840A3EA6477 /* Pods-FFmpeg_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FFmpeg_Tests-dummy.m"; sourceTree = "<group>"; };
 		F47059CBDD261832C3DBE6B769CD8ED3 /* Pods-FFmpeg_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FFmpeg_Example.modulemap"; sourceTree = "<group>"; };
 		F5DAC6923E697B4146DC78C363A359C4 /* FFmpeg.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FFmpeg.release.xcconfig; sourceTree = "<group>"; };
@@ -528,8 +528,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
