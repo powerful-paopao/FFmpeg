@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
 s.name             = 'FFmpeg'
-s.version          = '2.3.0'
+s.version          = '2.4.0'
 s.summary          = 'A short description of FFmpeg.'
 
 
@@ -29,14 +29,14 @@ s.homepage         = 'https://github.com/powerful-paopao/FFmpeg.git'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'xiaopaopao' => 'i' }
-s.source           = { :git => 'https://github.com/powerful-paopao/FFmpeg.git', :tag => '2.3.0' }
+s.source           = { :git => 'https://github.com/powerful-paopao/FFmpeg.git', :tag => '2.4.0' }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 
 s.ios.deployment_target = '10.0'
 
 s.vendored_libraries = 'FFmpeg/Classes/lib/*.a'
-s.header_mappings_dir = 'FFmpeg/Classes/include/**'
+s.header_mappings_dir = 'FFmpeg/Classes/include/**/*'
 
 
 s.source_files = 'FFmpeg/Classes/include/**/*'
