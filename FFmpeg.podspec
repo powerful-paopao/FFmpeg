@@ -6,10 +6,12 @@
 # To learn more about a Podspec see https://guides.cocoapods.org/syntax/podspec.html
 #
 
+
 Pod::Spec.new do |s|
-  s.name             = 'FFmpeg'
-  s.version          = '1.0.2'
-  s.summary          = 'A short description of FFmpeg.'
+s.name             = 'FFmpeg'
+s.version          = '1.1.0'
+s.summary          = 'A short description of FFmpeg.'
+
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,26 +19,37 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
+
+s.description      = <<-DESC
 TODO: Add long description of the pod here.
-                       DESC
+DESC
 
-  s.homepage         = 'https://github.com/xiaopaopao/FFmpeg'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'xiaopaopao' => 'i' }
-  s.source           = { :git => 'https://github.com/xiaopaopao/FFmpeg.git', :tag => '1.0.2' }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+s.homepage         = 'https://github.com/xiaopaopao/FFmpeg'
+# s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
+s.license          = { :type => 'MIT', :file => 'LICENSE' }
+s.author           = { 'xiaopaopao' => 'i' }
+s.source           = { :git => 'https://github.com/xiaopaopao/FFmpeg.git', :tag => '1.1.0' }
+# s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.source_files = 'FFmpeg/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'FFmpeg' => ['FFmpeg/Assets/*.png']
-  # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+s.ios.deployment_target = '10.0'
+
+s.vendored_libraries = 'FFmpeg/Classes/lib/*.a'
+s.header_mappings_dir = 'FFmpeg/Classes/include'
+
+
+s.source_files = 'FFmpeg/Classes/include/**/*'
+s.public_header_files = 'FFmpeg/Classes/include/**/*.h'
+s.libraries = 'bz2', 'iconv', 'z'
+s.frameworks = 'AudioToolbox', 'CoreMedia', 'VideoToolbox', 'AVFoundation'
+s.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 armv7 arm64' }
+
+
+# s.resource_bundles = {
+#   'FFmpeg' => ['FFmpeg/Assets/*.png']
+# }
+
+
+# s.dependency 'AFNetworking', '~> 2.3'
 end
