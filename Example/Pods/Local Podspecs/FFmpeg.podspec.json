@@ -1,6 +1,6 @@
 {
   "name": "FFmpeg",
-  "version": "0.1.0",
+  "version": "1.0.2",
   "summary": "A short description of FFmpeg.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/xiaopaopao/FFmpeg",
@@ -13,10 +13,24 @@
   },
   "source": {
     "git": "https://github.com/xiaopaopao/FFmpeg.git",
-    "tag": "0.1.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": "FFmpeg/Classes/**/*"
+  "vendored_libraries": "FFmpeg/Classes/lib/*.a",
+  "header_mappings_dir": "FFmpeg/Classes/include",
+  "source_files": "FFmpeg/Classes/include/**/*",
+  "public_header_files": "FFmpeg/Classes/include/**/*.h",
+  "libraries": [
+    "bz2",
+    "iconv",
+    "z"
+  ],
+  "frameworks": [
+    "AudioToolbox",
+    "CoreMedia",
+    "VideoToolbox",
+    "AVFoundation"
+  ]
 }

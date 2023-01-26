@@ -7,6 +7,7 @@
 //
 
 #import "PPViewController.h"
+#import "FFmpeg/libavcodec/avcodec.h"
 
 @interface PPViewController ()
 
@@ -18,6 +19,12 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+//    av_vda_alloc_context();
+//    Teacher *t = [[Teacher alloc] init];
+//    t.age = 10;
+//    NSLog(@"%d", LIBSWSCALE_VERSION_MAJOR);
+    size_t *size = NULL;
+    av_cpb_properties_alloc(size);
 }
 
 - (void)didReceiveMemoryWarning
