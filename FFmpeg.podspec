@@ -25,11 +25,11 @@ TODO: Add long description of the pod here.
 DESC
 
 
-s.homepage         = 'https://github.com/xiaopaopao/FFmpeg'
+s.homepage         = 'https://github.com/powerful-paopao/FFmpeg.git'
 # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
 s.license          = { :type => 'MIT', :file => 'LICENSE' }
 s.author           = { 'xiaopaopao' => 'i' }
-s.source           = { :git => 'https://github.com/xiaopaopao/FFmpeg.git', :tag => '2.1.0' }
+s.source           = { :git => 'https://github.com/powerful-paopao/FFmpeg.git', :tag => '2.1.0' }
 # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
 
